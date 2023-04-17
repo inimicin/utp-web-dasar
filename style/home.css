@@ -1,0 +1,10 @@
+.home-image {
+    background-image: url("../res/computer-blue-keyboard-unsplash.jpg");
+    background-size: cover;
+    filter: brightness(70%);
+}
+
+.nav-item {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
