@@ -24,14 +24,220 @@
     <script src="../script/Header.js"></script>
     <link rel="stylesheet" href="../style/general.css" />
     <link rel="stylesheet" href="../style/nav.css" />
-    <link rel="stylesheet" href="../style/register.css" />
+    <link rel="stylesheet" href="../style/rules.css" />
     <link rel="stylesheet" href="../style/font.css" />
   </head>
 
   <body style="background-color: black">
     <main-header active="rules"></main-header>
     <div class="container-fluid main-body w-100" style="height: 100vh">
-      
+      <div
+        class="container-fluid"
+        style="
+          width: 40%;
+          position: absolute;
+          top: 50%;
+          left: 10%;
+          transform: translate(0, -50%);
+        "
+      >
+        <h2 class="h2 mb-4" style="color: white">Competition Rules</h2>
+        <!-- <hr style="border-color: white;"> -->
+        <div
+          class="accordion"
+          id="accordionExample"
+          style="background: transparent"
+        >
+          <!-- First Item -->
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <a
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  General Rules
+                </a>
+              </h2>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        Participants are high school students or equivalent
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>The competition is individual</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Competition will be held in two stages, Online Qualifier
+                        and Final Day
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Participants who are late are not given compensation for
+                        lateness
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Participants who violate any rules will be disqualified
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- Second Item -->
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <a
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  Qualifier Rules
+                </a>
+              </h2>
+            </div>
+
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>
+                        Participants worked on the questions through the online
+                        judging website provided by the committee
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Participants allowed to use C++ or Java</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Participants were given 10 problem solving questions
+                        that had to be solved using allowed programming
+                        languages
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>Total working time 180 minutes</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        The 20 participants with the highest leaderboard scores
+                        will proceed to the Final Day stage which will be held
+                        offline
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <!-- Third Item -->
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <a
+                  class="btn btn-link btn-block text-left"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  Final Day Rules
+                </a>
+              </h2>
+            </div>
+
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td>Final Day will be held in two days</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        On the first day, participants were given a real case
+                        study question
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Participants are given a maximum of 4 hours to complete
+                        the given case study
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        Participants are required to submit a case study
+                        completion report in the form of a scientific article no
+                        later than 30 minutes after the maximum working time is
+                        up
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        On the second day, participants are required to present
+                        a case study completion report in front of the judges
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        The final leaderboard is the total result of the report
+                        scores and presentation scores of each judges
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container-fluid h-100 rules-image"
+        style="
+          background-color: white;
+          position: absolute;
+          left: 60%;
+          width: 40%;
+        "
+      ></div>
     </div>
   </body>
 </html>
