@@ -1,0 +1,16 @@
+.nav-item {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.active {
+  color: #0da4e3 !important;
+}
+
+.nav-link:hover {
+    color: #0da4e3 !important;
+}
