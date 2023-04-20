@@ -1,6 +1,7 @@
 .table {
-    margin-bottom: 0 !important;
+  margin-bottom: 0 !important;
 }
+
 .table td,
 .table th,
 .table thead th {
@@ -11,6 +12,11 @@
   color: white;
   font-size: 10pt !important;
 }
+
+.table td {
+  padding-bottom: 10px !important;
+}
+
 .card,
 .card-header,
 .card-body {
@@ -31,13 +37,13 @@
 }
 
 .card-header a {
-    font-weight: bold;
+  font-weight: bold;
   font-size: 12pt !important;
   color: white !important;
   padding: 0;
 }
 
 .rules-image {
-  background-image: url("../res/coding-person-unsplash.jpg");
+  background-image: url("../res/code-screen-unsplash.jpg");
   background-size: cover;
 }

@@ -9,7 +9,6 @@ class Header extends HTMLElement {
             class="navbar navbar-expand-lg navbar-dark w-100"
             style="background-color: transparent; height: 60px; position: absolute;"
             >
-            <a class="navbar-brand" href="#">Navbar</a>
             <button
                 class="navbar-toggler"
                 type="button"
