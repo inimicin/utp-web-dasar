@@ -22,15 +22,85 @@
       crossorigin="anonymous"
     ></script>
     <script src="../script/Header.js"></script>
-    <link rel="stylesheet" href="../style/home.css" />
+    <link rel="stylesheet" href="../style/general.css" />
+    <link rel="stylesheet" href="../style/nav.css" />
+    <link rel="stylesheet" href="../style/register.css" />
     <link rel="stylesheet" href="../style/font.css" />
   </head>
 
   <body style="background-color: black">
-
-    <main-header></main-header>
-    <div class="container-fluid main-body" style="height: 100vh">
-      
+    <main-header active="register"></main-header>
+    <div class="container-fluid main-body w-100" style="height: 100vh">
+      <div
+        class="container-fluid w-100 h-100"
+        style="
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+      >
+        <div
+          class="container-fluid form-container px-5"
+          style="
+            width: 40%;
+            padding-right: 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-100%, -50%);
+          "
+        >
+          <form>
+            <h3 class="mb-4" style="color: white">Register Now</h3>
+            <div class="form-group">
+              <label for="inputEmail" style="color: white">Email address</label>
+              <input
+                type="email"
+                class="form-control registration-input"
+                id="inputEmail"
+                aria-describedby="emailHelp"
+              />
+            </div>
+            <div class="form-group">
+              <label for="inputPassword" style="color: white">Password</label>
+              <input
+                type="password"
+                class="form-control registration-input"
+                id="inputPassword"
+              />
+            </div>
+            <div class="form-group form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="termCondition"
+              />
+              <label
+                class="form-check-label"
+                for="termCondition"
+                style="color: white"
+                >I agree to the
+                <a href="http://" style="color: #0da4e3"
+                  >term and condition</a
+                ></label
+              >
+            </div>
+            <button type="submit" class="btn btn-primary btn-save">
+              Submit
+            </button>
+          </form>
+        </div>
+        <div
+          class="container-fluid container-image w-50 h-100 mx-0"
+          style="
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(0, -50%);
+          "
+        ></div>
+      </div>
     </div>
   </body>
 </html>

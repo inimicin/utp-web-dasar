@@ -4,11 +4,6 @@
   filter: brightness(70%);
 }
 
-.nav-item {
-  padding-left: 10px !important;
-  padding-right: 10px !important;
-}
-
 .btn-learn {
   background-color: transparent !important;
   border-color: white;
@@ -17,6 +12,6 @@
 }
 
 .btn-learn:hover{
-    color: #1ad67e;
-    border-color: #1ad67e;
+    color: #0da4e3;
+    border-color: #0da4e3;
 }

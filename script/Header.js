@@ -1,4 +1,8 @@
 class Header extends HTMLElement {
+  constructor() {
+    super();
+  }
+
   connectedCallback() {
     this.innerHTML = `
         <nav
@@ -21,16 +25,16 @@ class Header extends HTMLElement {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="./home.html">Home</a>
+                        <a class="nav-link ${this.getAttribute('active') == 'home' ? 'active' : ''}" href="./home.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rules</a>
+                        <a class="nav-link ${this.getAttribute('active') == 'rules' ? 'active' : ''}" href="#">Rules</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Rundown</a>
+                        <a class="nav-link ${this.getAttribute('active') == 'rundown' ? 'active' : ''}" href="#">Rundown</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./register.html">Register Now</a>
+                        <a class="nav-link ${this.getAttribute('active') == 'register' ? 'active' : ''}" href="./register.html">Register Now</a>
                     </li>
                 </ul>
             </div>
@@ -39,4 +43,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define('main-header', Header);
+customElements.define("main-header", Header);

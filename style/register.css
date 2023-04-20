@@ -1,0 +1,28 @@
+.btn-save {
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+.btn-save:hover {
+    color: #0da4e3 !important;
+    border-color: #0da4e3 !important;
+}
+
+.registration-input {
+    background-color: transparent !important;
+    color: white !important;
+}
+
+.registration-input:active {
+    border-color: #0da4e3 !important;
+}
+
+.registration-input:focus {
+    box-shadow: 2px #0da4e3 !important;
+}
+
+.container-image {
+    background-image: url("../res/coding-person-unsplash.jpg");
+    background-size: cover;
+    background-position: 0 -300px;
+}
