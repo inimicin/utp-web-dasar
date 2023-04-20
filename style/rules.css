@@ -1,0 +1,49 @@
+.table {
+  margin-bottom: 0 !important;
+}
+
+.table td,
+.table th,
+.table thead th {
+  border: none !important;
+  border-top: 1px solid white !important;
+  padding: 10px !important;
+  padding-bottom: 0 !important;
+  color: white;
+  font-size: 10pt !important;
+}
+
+.table td {
+  padding-bottom: 10px !important;
+}
+
+.card,
+.card-header,
+.card-body {
+  background: transparent !important;
+  color: white !important;
+  padding-left: 10px !important;
+  margin-left: 0 !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card {
+  border-bottom: 2px solid white !important;
+  font-size: 10pt !important;
+  padding-left: 0 !important;
+}
+
+.card-header a {
+  font-weight: bold;
+  font-size: 12pt !important;
+  color: white !important;
+  padding: 0;
+}
+
+.rules-image {
+  background-image: url("../res/code-screen-unsplash.jpg");
+  background-size: cover;
+}

@@ -1,0 +1,40 @@
+.card,
+.card-header,
+.card-body {
+  background: transparent !important;
+  color: white !important;
+  padding-left: 10px !important;
+  margin-left: 0 !important;
+}
+
+.card-body {
+    padding-top: 0 !important;
+}
+
+.card {
+  border-bottom: 2px solid white !important;
+  font-size: 10pt !important;
+}
+
+.card-header a {
+  font-size: 12pt !important;
+  color: white !important;
+  padding: 0;
+}
+
+.card-header button:active {
+  border: none;
+}
+
+.card-header button:focus {
+  border: none;
+}
+
+.card-header button::after {
+  border: none;
+}
+
+.rundown-image {
+    background-image: url("../res/dark-room-laptop-unsplash.jpg");
+    background-size: cover;
+}
